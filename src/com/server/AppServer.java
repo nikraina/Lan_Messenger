@@ -21,7 +21,9 @@ public class AppServer {
 		appServer.createServerConnection();
 
 	}
-	
+	/**
+	 * This method is used to create a server connection
+	 */
 	void createServerConnection(){
 		String data = "Hello World!!";
 		try{
